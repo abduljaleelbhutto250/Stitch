@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px 20px;
+    gap: 200px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(204, 176, 16);
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+/* =========================== hero  section ============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section{
+    background-image: url(.///Assets/hero-section-img.jpg) ;
+    overlay: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   height: 450px;
+   width: 100%;
+}
+.hero-text{
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-top: 150px;  
+}
+
+.hero-text p{
+    font-size: 22px;
+}
+
+.hero-text h1{
+    font-size: 55px;
+}
+
+.hero2{
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(25, 2, 46);
+    display: flex;
+    color: white;
+    padding: 50px;
+    padding-left: 130px;
+    padding-top: 70px;
+    gap: 170px;
+}
+.div{
+    text-align: center;
+}
+
+/* ======================================section2=========================== */
+
+.section2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.section2 h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 150px ;
+}
+.section2 p{
+    padding-top: 0px;
+    text-align: center;
+}
+.section2-1{
+    background-image: url(./Assets//servises-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    height: 250px;
+    border: 3px solid;
+}
+
+/* ==================================section3============================= */
+
+.section3{
+    background-color: rgb(172, 196, 196);
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.section3 h2{
+    padding: 5px;
+}
+
+.section3 p{
+    padding: 5px;
+}
+
+
+
+/* ===================================footer========================= */
+.footer{
+  
+    background-color: #282a41;
+    color: white;
+    padding: 20px;
+}
+.footer2{
+    text-align: center;
+}
+.footer1{
+    display: flex;
+    gap: 80px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}

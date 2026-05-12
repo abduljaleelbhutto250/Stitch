@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px 20px;
+    gap: 200px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(204, 176, 16);
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+/* =========================== hero  section ============================= */
+
+
+
+
+
+
+.hero{
+    background-color:gray;
+    height: 300px;
+    padding: 70px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero hr{
+    border: 3px solid;
+    width: 60px;
+}
+
+/* ===========================dection2======================== */
+
+.section2{
+    display: flex;
+    margin-top: 70px;
+    background-color:gray;
+    gap: 20px;
+}
+.section2-1{
+    padding-top: 50px;
+    padding-left: 80px;    
+}
+.section2-1 h3{
+    font-size: 40px;
+}
+.section2-1 p{
+font-size: 19px;
+}
+.section2-1 pre{
+    font-size: 19px;
+}
+
+.section2-3{
+    padding-left: 80px;
+}
+
+.section2-4{
+    padding-top: 50px;
+    padding-left: 0px;    
+}
+.section2-4 h3{
+    font-size: 40px;
+}
+.section2-4 p{
+font-size: 19px;
+}
+.section2-4 pre{
+    font-size: 19px;
+}
+/* =================================== prodication =========================== */
+
+.section3{
+    padding-top: 50px;
+    margin-top: 50px;
+    height: 700px;
+    background-color:gray;
+}
+
+.section3 hr{
+    margin-left: 570px
+}
+.section3 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.section4-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.card2{
+    border: 2px solid;
+    padding: 10px;
+    margin-top: 50px;
+    padding-top: 40px;
+    height: 150px;
+    width: 350px;
+    background-color: rgb(192, 191, 191);
+    
+}
+
+
+
+/* ===================================footer========================= */
+
+.footer{
+    margin-top: 40px;
+    background-color: #282a41;
+    color: white;
+    padding-left: 90px;
+}
+.footer h3{
+    text-align: center;
+    font-size: 38px;
+}
+.btn1{
+    border: 1px solid;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-left: 530px;
+    
+    text-decoration: none;
+    
+}
+.footer hr{
+    padding: 0px;
+}
+.footer1{
+    display: flex;
+    gap: 80px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}

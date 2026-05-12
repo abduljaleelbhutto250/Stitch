@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px 20px;
+    gap: 200px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(204, 176, 16);
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+/* =========================== hero  section ============================= */
+
+
+
+
+
+
+.hero{
+    background-color:gray;
+    height: 250px;
+    padding: 70px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero p{
+    font-size: 23px;
+}
+
+/* ==========================section8============================ */
+
+.section8{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section8 hr{
+    border: 3px solid;
+    margin-left: 570px;
+    width: 100px; 
+}
+.section8 h2{
+    text-align: center;
+    font-size: 45px;
+}
+.section8 p{
+    text-align: center;
+}
+
+.section8-1{
+    background-color: aliceblue;
+    width: 620px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.section8-2{
+    display: flex;
+    gap: 15px;
+
+}
+.input{
+    width: 300px;
+    height: 25px;
+}
+.input1{
+    width: 620px;
+    height: 25px;
+}
+.input2{
+    width: 620px;
+    height: 100px;
+}
+.btn{
+    width: 625px;
+    height: 50px;
+}
+
+.quick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.quick1{
+    margin-top: 20px;
+    border: 1px solid;
+    margin-top: 310px;
+    background-color: white;
+    padding: 10px;
+}
+.expo{
+    background-color: rgb(16, 16, 70);
+    padding: 15px;
+}
+
+
+/* ======================= footer ======================== */
+.footer{
+  margin-top: 150px;
+    background-color: #282a41;
+    color: white;
+    padding: 20px;
+}
+.footer1{
+    display: flex;
+    gap: 80px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}

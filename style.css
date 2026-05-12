@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px 20px;
+    gap: 200px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.btn{
+    background-color: green;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+/* ===================== hero section ===================== */
+.hero{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 100px;
+}
+.hero h1{
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero h3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.hero p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    text-decoration: none;
+    background-color:  rgb(70, 157, 233);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn2{
+    text-decoration: none;
+    background-color:   green;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    margin-right: 15px;
+}
+/* ======================= who are we ========================== */
+.who{
+    text-align: center;
+    height: 250px;
+    background-color: white;
+    padding-top: 150px;
+}
+.who hr{
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+.who h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* ===================== what we do ========================== */
+.what{
+    text-align: center;
+    height: 250px;
+    padding-top: 150px;
+}
+.what h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 9;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 11;
+}
+        
+/* ================= Our CMT ============================= */
+.cmt{
+    text-align: center;
+    height: 250px;
+    background-color: white;
+    padding-top: 150px;
+}
+.cmt h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: left;
+    gap: 30px;
+    padding: 15px;
+}
+    
+.div11 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.div12 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.div13 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.div14 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+    border: 3px solid;
+    padding: 15px;
+}
+
+.div15 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 9;
+    border: 3px solid;
+    padding: 15px;
+}
+         /* ==============================  factory =========================== */
+
+.factory{
+    text-align: center;
+    height: 450px;
+     background-color: rgb(4, 15, 77);
+    padding-top: 100px;
+     color: white;
+}
+.factory h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+   
+         
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+    
+.div21 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.div22 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+.div23 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+}
+
+.div24 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+}
+     /*=========================== production =========================  */
+     
+.production{
+    text-align: center;
+    height: 450px;
+    padding-top: 100px;
+}
+.production h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+  
+.flow{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+/* ========================== expo =================================== */
+.expo{
+    display:flex ;
+    justify-content: center;
+    gap: 50px;
+}
+.expo1 a{
+    text-decoration: none;
+}
+
+/* ==================== quick inquiry ========================= */
+
+.section8{
+    height: 800px;
+    margin-top: 100px;
+}
+
+.section8 hr{
+    border: 3px solid;
+    margin-left: 570px;
+    width: 100px; 
+}
+.section8 h2{
+    text-align: center;
+    font-size: 45px;
+}
+.section8 p{
+    text-align: center;
+}
+
+.section8-1{
+    background-color: aliceblue;
+    width: 620px;
+    margin-left: 290px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.section8-2{
+    display: flex;
+    gap: 15px;
+
+}
+.input{
+    width: 300px;
+    height: 25px;
+}
+.input1{
+    width: 620px;
+    height: 25px;
+}
+.input2{
+    width: 620px;
+    height: 100px;
+}
+.btn{
+    width: 625px;
+    height: 50px;
+}
+   
+/* ======================= footer ======================== */
+.footer{
+  
+    background-color: #282a41;
+    color: white;
+    padding: 20px;
+}
+.footer1{
+    display: flex;
+    gap: 80px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
